@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and model weights
+checkpoints/
+checkpoints_dual/
+*.pt
+*.pth
+
+# Cache and temporary files
+cache/
+scratch/
+outputs/
+kaggle_notebook/
+kaggle_output/
+docs/
+*.log
+*.zip
+
+# Raw datasets (keep repository lightweight)
+data/raw/Test_All_Photos/
+data/raw/Training-All_Photos_updated/
+data/raw/Training-All_Photos_without_H374/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+.ipynb_checkpoints/
