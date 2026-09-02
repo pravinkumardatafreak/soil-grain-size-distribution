@@ -89,7 +89,8 @@ Evaluated using **5-Fold Cross-Validation across 10 Random Seeds (50 Total Out-O
 | Dual-Scale ResNet-18 ($25\,\text{mm} + 100\,\text{mm}$) | 5-Fold GroupKFold | $14.15$ | $88.42$ | $95.38341$ |
 | Google EfficientNet-V2 B0 (ImageNet-21k) | 5-Fold GroupKFold | $11.20$ | $86.14$ | $86.98873$ |
 | Non-Parametric Soil Prototype Retrieval | Leave-One-Out CV | $9.85$ | $35.87$ | $81.65888$ |
-| **Champion: Dual-Backbone + Coordinated MultiTaskElasticNet** | **10-Seed 5-Fold CV** | **`8.6194`** | **`55.2188`** | **State of the Art** |
+| Coordinated MultiTaskElasticNet (Group-Lasso) | 10-Seed 5-Fold CV | $8.62$ | $55.22$ | SOTA Baseline |
+| **Champion: Heterogeneous Synthesis (Retrieval + MultiTask)** | **Ensemble** | **`8.24`** | **`42.15`** | **`73.68835`** 🚀 |
 
 ### Granular Per-Sieve Physical Error Breakdown (Champion Pipeline)
 
